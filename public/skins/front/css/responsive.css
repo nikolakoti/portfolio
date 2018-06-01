@@ -1,0 +1,102 @@
+
+/* 
+    Created on : Apr 28, 2018, 11:45:43 AM
+    Author     : Nikola Kotarac
+*/
+
+
+@media(min-width:280px) {
+
+    .right-sidebar {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    #language-switcher {
+
+        display: none;
+    }
+
+
+}
+
+@media(min-width:320px) {
+
+    .left-sidebar {
+        padding-bottom: 15px;
+    }
+
+    #education {
+
+        padding-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 29px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    h5 {
+        font-size: 17px !important;
+    }
+
+    .skill-holder img {
+
+        width: 43px !important;
+    }
+
+}
+
+@media(min-width:576px){
+
+  
+    h2 {
+        font-size: 2rem !important;
+    }
+
+    h4 {
+        font-size: 1.7rem !important;
+    }
+
+    h5 {
+        font-size: 1.4rem !important;
+    }
+
+}
+
+@media(min-width:768px){
+
+    .right-sidebar {
+        margin-left: -15px;
+
+    }
+
+
+    #language-switcher {
+
+        display: block;
+    }
+    
+    #language-switcher-mobile {
+        display: none;
+    }
+
+
+}
+
+@media(min-width:992px){
+
+    
+
+
+} 
+
+@media(min-width:1024px) {
+    .skill-holder img {
+
+        width: 55px !important;
+    }
+}
